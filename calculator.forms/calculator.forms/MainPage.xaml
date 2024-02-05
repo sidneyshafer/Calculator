@@ -1,0 +1,227 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="calculator.forms.MainPage">
+
+    <StackLayout Padding="10, 20, 10, 10">
+
+        <Grid BackgroundColor="WhiteSmoke">
+            <Grid.RowDefinitions>
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition />
+            <ColumnDefinition />
+            <ColumnDefinition />
+            <ColumnDefinition />
+        </Grid.ColumnDefinitions>
+
+            <Frame BackgroundColor="WhiteSmoke"
+                   BorderColor="DarkGray"
+                   Padding="15" 
+                   Margin="0, 0, 0, 10"
+                   Grid.Row="0"
+                   Grid.ColumnSpan="4">
+                  <Label Text="{Binding Result}"
+                         x:Name="LblResult"
+                   FontSize="36"
+                   FontAttributes="Bold"
+                   HorizontalOptions="End"></Label>
+            </Frame>
+
+
+          <Button Text="ON"
+                  Grid.Row="1" 
+                  Grid.Column="0" 
+                    BackgroundColor="Gray"
+                    HorizontalOptions="FillAndExpand"
+                    FontSize="Large"
+                    FontAttributes="Bold"
+                    Clicked="BtnOn_Clicked"
+                            />
+
+                <Button Text="OFF" 
+                        Grid.Row="1" 
+                        Grid.Column="1"
+                BackgroundColor="DarkGray"
+                HorizontalOptions="FillAndExpand"
+                FontSize="Large"
+                FontAttributes="Bold"
+                Clicked="BtnOff_Clicked"
+                />
+
+                <Button Text="C"
+                        Grid.Row="1" 
+                        Grid.Column="2"
+                        Grid.ColumnSpan="2"
+                BackgroundColor="DarkGray"
+                HorizontalOptions="FillAndExpand"
+                FontSize="Large"
+                FontAttributes="Bold"
+                Clicked="BtnClear_Clicked"
+                />
+
+            <Button Text="7" 
+                BackgroundColor="LightGray"
+                FontSize="Large"
+                FontAttributes="Bold"
+                Padding="35"
+                Grid.Row="2" 
+                Grid.Column="0"
+                Command="{Binding PushNumberCommand}" 
+                CommandParameter="7" />
+        
+        <Button Text="8" 
+                BackgroundColor="LightGray" 
+                FontSize="Large"
+                FontAttributes="Bold"
+                Padding="35"
+                Grid.Row="2" 
+                Grid.Column="1"
+                Command="{Binding PushNumberCommand}" 
+                CommandParameter="8"/>
+        
+        <Button Text="9" 
+                BackgroundColor="LightGray" 
+                FontSize="Large"
+                FontAttributes="Bold"
+                Padding="35"
+                Grid.Row="2" 
+                Grid.Column="2"
+                Command="{Binding PushNumberCommand}" 
+                CommandParameter="9"/>
+        
+        <Button Text="/" 
+                BackgroundColor="Orange"
+                TextColor="White"
+                FontSize="Large"
+                FontAttributes="Bold"
+                Padding="35"
+                Grid.Row="2" 
+                Grid.Column="3"
+                Command="{Binding PushOperationCommand}" 
+                CommandParameter="/"/>
+        
+        <Button Text="4" 
+                BackgroundColor="LightGray" 
+                FontSize="Large"
+                FontAttributes="Bold"
+                Padding="35"
+                Grid.Row="3" 
+                Grid.Column="0"
+                Command="{Binding PushNumberCommand}" 
+                CommandParameter="4"/>
+        
+        <Button Text="5" 
+                BackgroundColor="LightGray" 
+                FontSize="Large"
+                FontAttributes="Bold"
+                Padding="35" 
+                Grid.Row="3" 
+                Grid.Column="1"
+                Command="{Binding PushNumberCommand}" 
+                CommandParameter="5"/>
+        
+        <Button Text="6" 
+                BackgroundColor="LightGray" 
+                FontSize="Large"
+                FontAttributes="Bold"
+                Padding="35"
+                Grid.Row="3" 
+                Grid.Column="2"
+                Command="{Binding PushNumberCommand}" 
+                CommandParameter="6"/>
+        
+        <Button Text="x" 
+                BackgroundColor="Orange"
+                TextColor="White"
+                FontSize="Large"
+                FontAttributes="Bold"
+                Padding="35"
+                Grid.Row="3" 
+                Grid.Column="3"
+                Command="{Binding PushOperationCommand}" 
+                CommandParameter="x"/>
+        
+        <Button Text="1" 
+                BackgroundColor="LightGray" 
+                FontSize="Large"
+                FontAttributes="Bold"
+                Padding="35"
+                Grid.Row="4" 
+                Grid.Column="0"
+                Command="{Binding PushNumberCommand}" 
+                CommandParameter="1"/>
+        
+        <Button Text="2" 
+                BackgroundColor="LightGray" 
+                FontSize="Large"
+                FontAttributes="Bold"
+                Padding="35" 
+                Grid.Row="4" 
+                Grid.Column="1"
+                Command="{Binding PushNumberCommand}" 
+                CommandParameter="2"/>
+        
+        <Button Text="3" 
+                BackgroundColor="LightGray" 
+                FontSize="Large"
+                FontAttributes="Bold"
+                Padding="35"
+                Grid.Row="4" 
+                Grid.Column="2"
+                Command="{Binding PushNumberCommand}" 
+                CommandParameter="3"/>
+        
+        <Button Text="-" 
+                BackgroundColor="Orange"
+                TextColor="White"
+                FontSize="Large"
+                FontAttributes="Bold"
+                Padding="35"
+                Grid.Row="4" 
+                Grid.Column="3"
+                Command="{Binding PushOperationCommand}" 
+                CommandParameter="-"/>
+        
+        <Button Text="0" 
+                BackgroundColor="LightGray" 
+                FontSize="Large"
+                FontAttributes="Bold"
+                Padding="35"
+                Grid.Row="5" 
+                Grid.Column="0" 
+                Grid.ColumnSpan="2"
+                Command="{Binding PushNumberCommand}" 
+                CommandParameter="0"/>
+        
+        <Button Text="=" 
+                BackgroundColor="DarkOrange"
+                TextColor="White"
+                FontSize="Large"
+                FontAttributes="Bold"
+                Padding="35" 
+                Grid.Row="5" 
+                Grid.Column="2"
+                Command="{Binding PushOperationCommand}" 
+                CommandParameter="="/>
+        
+        <Button Text="+" 
+                BackgroundColor="Orange"
+                TextColor="White"
+                FontSize="Large"
+                FontAttributes="Bold"
+                Padding="35" 
+                Grid.Row="5" 
+                Grid.Column="3"
+                Command="{Binding PushOperationCommand}" 
+                CommandParameter="+"/>
+        </Grid>
+    </StackLayout>
+
+</ContentPage>
