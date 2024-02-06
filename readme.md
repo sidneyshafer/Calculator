@@ -3,6 +3,8 @@
 ## Application Usage in Microsoft's Visual Studio
 
 1. From the GitHun repository, download the code as a ZIP file.
+  ![image](https://github.com/sidneyshafer/calculator/assets/66838571/16311c06-043d-4b75-b8e8-a8424a47a2c1)
+
 2. Extract the files from the ZIP file.
   
 3. Double click the solution to open in Visual Studio.
