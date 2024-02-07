@@ -13,7 +13,7 @@
 4. Run the application - you will need to configure an Android Emulator (or other device emulator) for the application to run.
    ![image](https://github.com/sidneyshafer/calculator/assets/66838571/43012c3b-e87e-4627-948e-ef9a7416749d)
 
-## User Interface
+## User Interface Design
 Application running on Android Emulator (Pixel 5):
 
 ![App3](https://github.com/sidneyshafer/calculator/assets/66838571/d69c6daf-b7fe-47a4-87af-7cb31cccb446)
