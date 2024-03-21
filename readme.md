@@ -1,7 +1,8 @@
 # Calculator Application for iOS and Android
 
 ## Application Usage
-*You will need to configure an Android Emulator (or other device emulator) for the application to run.*
+**NOTE:** You will need to configure an Android Emulator (or other device emulator) for the application to run.
+
    ![image](https://github.com/sidneyshafer/calculator/assets/66838571/43012c3b-e87e-4627-948e-ef9a7416749d)
 
 ## User Interface Design
