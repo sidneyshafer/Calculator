@@ -1,16 +1,7 @@
 # Calculator Application for iOS and Android
 
-## Application Usage in Microsoft's Visual Studio
-
-1. From the GitHub repository, download the code as a ZIP file.
-  ![image](https://github.com/sidneyshafer/calculator/assets/66838571/046ee4a8-af27-4450-aef7-4f623f94352b)
-
-2. Extract the files from the ZIP file.
-  
-3. Double click the solution to open in Visual Studio.
-   ![image](https://github.com/sidneyshafer/calculator/assets/66838571/a3417198-4462-44b5-a69a-bd58f81f8c68)
-
-4. Run the application - you will need to configure an Android Emulator (or other device emulator) for the application to run.
+## Application Usage
+*You will need to configure an Android Emulator (or other device emulator) for the application to run.*
    ![image](https://github.com/sidneyshafer/calculator/assets/66838571/43012c3b-e87e-4627-948e-ef9a7416749d)
 
 ## User Interface Design
