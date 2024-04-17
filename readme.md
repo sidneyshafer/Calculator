@@ -3,7 +3,6 @@
 A mobile calculator application built for iOS and Android devices using Xamarin.Forms, XAML pages, and data binding.
 
 ## Application Usage
-**NOTE:** You will need to configure an Android Emulator (or other device emulator) for the application to run.
 
    ![image](https://github.com/sidneyshafer/calculator/assets/66838571/43012c3b-e87e-4627-948e-ef9a7416749d)
 
