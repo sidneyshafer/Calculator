@@ -1,6 +1,6 @@
 # Calculator Application for iOS and Android
 
-A mobile calculator application built for iOS and Android devices using Xamarin.Forms, XAML pages, and data binding.
+A calculator application for iOS and Android devices using C#, .NET Standard 2.0, Xamarin.Forms 5.0, and XAML.
 
 ## Application Usage
 
